@@ -1,0 +1,5 @@
+Aplikacja tworzy instancje serwera http. 
+Następnie na obiekcie server wywołujemy funkcje on. 
+Funkcja ta pozwala na reakcje serwera w zależności od akcji (request, connection, close, error).
+W wypadku nasłuchiwania serwera na connection obiekt socket reprezentuje tkz. gniazdo sieciowe powstałe po połączeniu usera z serwerem. Ten obiekt pozwala na dwustronną komunikację - user - server. 
+W naszym wypadku za każdym razem, kiedy user wejdzie na port 3000, połączenie zostanie nawiązane, na co nasz serwer reaguje wywołaniem console.log-a.
